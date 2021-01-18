@@ -3,7 +3,7 @@
 Intro
 ---
 
-![About this Mac](https://github.com/doanhmaple/Dell-Vostro-3568-Hackintosh/blob/main/images/About_Mac.png)
+![About this Mac](http://i.imgur.com/3Fg1zZp.png)
 
 | | Version |
 | ---: | :--- |
