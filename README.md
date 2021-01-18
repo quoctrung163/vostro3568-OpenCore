@@ -1,5 +1,4 @@
 # Dell Vostro 3568 Hackintosh - OpenCore (Big Sur - 11.1)
-**Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS EFI!**
 
 Intro
 ---
@@ -10,19 +9,6 @@ Intro
 | ---: | :--- |
 | ``OpenCore`` | 0.6.4 (RELEASE) |
 | ``Big Sur`` | 11.1 (20C69) |
-
-## Disclaimer
-
-This repository has no other purpose but sharing.
-I want to share my hackintosh configuration for this particular laptop with the whole world.
-This is not a step by step guide, rather a thing that can greatly help you on your way of turning this or similar laptop into a hackintosh.
-Though you can just grab and use this if you have same or very similar laptop model, I greatly encourage you not do so, but instead read all the things I will mention below and get some knowledge.
-
-## Hmmm...
-
-* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
-
-* Create one-key cpufriend if you often use battery, power-plug always is not recommended for best performance 
 
 Hardware
 ---
@@ -49,19 +35,5 @@ Hardware
 | ``Keyboard`` | - | No issues |
 | ``Touchpad`` | Dell Touchpad | No issues. ACPI should be patched to enable gesture |
 | ``Dimensions`` | 23.65mm x 260mm x 380mm | - |
-| ``Weight`` | 2.29 kg | ACPI patches will not help with this. |
+| ``Weight`` | 2.29 kg | - |
 | ``Power`` | 65W Power Adapter | - |
-
-## Gratitude
-
-* [Dortania](https://dortania.github.io/) - for Vanilla guides
-* [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
-* [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
-* [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
-
-### Where to begin
-
-**Use Dortania's guide for doing config.plist and create USB Installer**
-
-* [OpenCore Vanilla Laptop guide](https://dortania.github.io/OpenCore-Install-Guide)
-and you must have some research then...
